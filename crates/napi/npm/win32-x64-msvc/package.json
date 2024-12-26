@@ -1,6 +1,8 @@
 {
   "name": "@ast-grep/napi-win32-x64-msvc",
   "version": "0.33.0",
+  "name": "@codemod.com/ast-grep-napi-win32-x64-msvc",
+  "version": "0.32.2",
   "os": [
     "win32"
   ],

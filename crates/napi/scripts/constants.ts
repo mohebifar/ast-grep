@@ -1,4 +1,30 @@
-import { Lang } from "..";
+enum Lang {
+  Angular = "Angular",
+  Html = "Html",
+  JavaScript = "JavaScript",
+  Tsx = "Tsx",
+  Css = "Css",
+  TypeScript = "TypeScript",
+  Bash = "Bash",
+  C = "C",
+  Cpp = "Cpp",
+  CSharp = "CSharp",
+  Go = "Go",
+  Elixir = "Elixir",
+  Haskell = "Haskell",
+  Java = "Java",
+  Json = "Json",
+  Kotlin = "Kotlin",
+  Lua = "Lua",
+  Php = "Php",
+  Python = "Python",
+  Ruby = "Ruby",
+  Rust = "Rust",
+  Scala = "Scala",
+  Sql = "Sql",
+  Swift = "Swift",
+  Yaml = "Yaml",
+}
 
 export const languageNodeTypesTagVersionOverrides: Partial<
   Record<Lang, string>
