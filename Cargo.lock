@@ -1914,11 +1914,13 @@ dependencies = [
 
 [[package]]
 name = "tree-sitter-angular-codemod"
-version = "0.5.2"
+version = "0.5.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "08d2f32e07628c4579efc0b6f0b26f7fa1cd3d19c648d75e0f6f6b65d81dbd18"
+checksum = "2154563e7ee9cafd4cf7adcd6751c2376a8f15cc775abe2bd2885b08a93ed255"
 dependencies = [
  "cc",
+ "tree-sitter",
+ "tree-sitter-html",
  "tree-sitter-language",
 ]
 
